@@ -1,0 +1,79 @@
+@import "footer";
+@import "header";
+@import "generales";
+@import "card";
+@import "media";
+@import "parrafos";
+@import "formulario";
+
+h1 {
+    color: rgb(192, 49, 49);
+    text-align: center;
+    margin-top: 30px;
+}
+h2 {
+    color: rgb(192, 49, 49);
+    text-align: center;
+    margin-bottom: 20px;
+}
+#modal2 {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 300px;
+    color: red;
+}
+// ESTILO DEL SCROLL
+html {
+    scroll-behavior: smooth;
+}
+#section1 {
+    height: auto;
+    background-color: white;
+}
+#section2 {
+    height: 1000px;
+    background-color: rgb(192, 49, 49);
+}
+#section3 {
+    height: 740px;
+    background-color: white;
+}
+//to*top
+.to-top{
+	color:black;
+	padding-top:1.8em;
+	display:inline-block;/* or block */
+	position: relative;
+	border-color:black;
+	text-decoration:none;
+    background-color: transparent;
+	transition:all .3s ease-out;
+    margin-left: 1200px;
+    margin-top: -70px;
+    font-size:1.3rem;
+}
+.to-top:before{
+	content:'▲';
+	font-size:.8em;
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-.7em;
+	border:solid .13em white;
+	border-radius:10em;
+	width:1.4em;
+	height:1.4em;
+	line-height:1.3em;
+	border-color:inherit;
+	transition:transform .5s ease-in;
+}
+.to-top:hover{
+	color:pink;
+	border-color:pink;
+}
+.to-top:hover:before{
+	transform: rotate(360deg);
+}

@@ -1,0 +1,65 @@
+.contact-form{
+    background: #fff;
+    background-color: white;
+    width: 100%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: left;
+}
+.contact-image img{
+    border-radius: 6rem;
+}
+.contact-form form .row{
+    margin-bottom: 0%;
+}
+.contact-form h1{
+    margin-top: -15%;
+    text-align: center;
+    color: rgb(192, 49, 49);
+    padding-top: 150px;
+}
+.contact-form .btnContact {
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: rgb(192, 49, 49);
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    margin-top: -10px;
+}
+.btnContactSubmit
+{
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.formuNov {
+    p {
+        color: rgb(192, 49, 49);
+        margin-top: 30px;
+        font-size: 17px;
+    }
+    label {
+        float: right;
+        margin-top: -39.5px;
+        margin-right: 10px;
+    }
+}
+.form-group{
+    padding: 30px;
+    padding-left: 0%;
+}
+.contact-form{
+    img{
+        padding-top: 90px;
+    }
+}

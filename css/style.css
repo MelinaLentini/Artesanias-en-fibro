@@ -1,0 +1,382 @@
+@charset "UTF-8";
+.footer {
+  background-color: #c03131; }
+
+#subscribe-blog {
+  border: none; }
+
+#subscribe-blog h6 {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px; }
+
+.suscrip h6 {
+  color: white;
+  font-size: 20px; }
+
+#subscribe-field {
+  font-size: 14px; }
+
+.btsuscf {
+  background-color: #c03131;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px; }
+
+.fab {
+  color: white;
+  font-size: 20px; }
+
+.productos {
+  color: white;
+  margin-top: 20px; }
+  .productos h6 {
+    font-size: 20px; }
+  .productos p a {
+    background-color: #c03131;
+    font-size: 18px; }
+
+.contacto {
+  color: white;
+  margin-top: 20px; }
+  .contacto h6 {
+    font-size: 20px; }
+  .contacto p a {
+    font-size: 18px; }
+
+.copyr {
+  color: white;
+  font-size: 16px; }
+  .copyr a {
+    color: white;
+    font-size: 16px;
+    background-color: #c03131; }
+
+.btsusc {
+  background-color: white;
+  color: #c03131;
+  border-radius: 10%;
+  border-color: white; }
+
+/*TOP-BAR*/
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #c03131;
+  overflow: hidden; }
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  background-color: #c03131;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 10px; }
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #c03131;
+  color: white; }
+
+/*MENU*/
+.contheader {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #c03131;
+  margin: auto;
+  padding: 8px;
+  align-items: center; }
+
+#navbarNavDropdown ul li a {
+  color: white; }
+
+.contmenu {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: flex-end; }
+
+li {
+  margin: 25px;
+  padding: 5px;
+  list-style: none;
+  display: inline-block;
+  font-size: 15px;
+  position: relative; }
+
+a {
+  outline: none;
+  text-decoration: none;
+  text-align: center;
+  color: rgba(240, 124, 143, 0.849);
+  font-size: 20px;
+  background-color: #c03131;
+  margin: auto;
+  list-style-type: none; }
+
+ul li a:focus {
+  color: #f7f1f1; }
+
+ul li a:hover {
+  color: #f7f1f1;
+  background-color: rgba(240, 124, 143, 0.849); }
+
+.menudespl {
+  display: none;
+  background-color: #f7f1f1;
+  overflow: visible;
+  width: 160%; }
+
+.fas {
+  font-size: 20px;
+  margin-top: 13px;
+  color: #c03131; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fredoka One', cursive; }
+
+/*ESTILO DEL BODY*/
+body {
+  background-color: white; }
+
+.prod {
+  text-align: center;
+  margin: 20px auto;
+  float: none;
+  margin-bottom: 10px;
+  padding: 20px;
+  color: #c03131;
+  background-color: white;
+  border-color: black;
+  border-width: 7px; }
+
+.prod__card {
+  background-color: white;
+  justify-content: right; }
+  .prod__card p {
+    text-align: center;
+    color: black;
+    size: 20px; }
+  .prod__card a {
+    width: max-content;
+    margin-top: 12px;
+    margin-left: -20px;
+    background-color: #c03131;
+    color: white;
+    border: white;
+    text-transform: uppercase; }
+  .prod__card a:hover {
+    background-color: #c03131; }
+
+.prod2 {
+  text-align: center;
+  margin: 20px auto;
+  float: none;
+  margin-bottom: 10px;
+  padding: 20px;
+  color: #c03131;
+  background-color: white;
+  border-color: black;
+  border-width: 7px; }
+
+.prod2__card {
+  background-color: white;
+  justify-content: center; }
+  .prod2__card p {
+    text-align: center;
+    color: black; }
+  .prod2__card a {
+    background-color: #c03131;
+    color: white;
+    border-color: #c03131; }
+  .prod2__card a:hover {
+    background-color: #c03131;
+    border-color: black; }
+
+.price_prod {
+  font-size: 25px;
+  color: #c03131; }
+
+/*MOBILE*/
+@media only screen and (max-width: 768px) {
+  .container {
+    grid-template-areas: "caballito"  "cajita"  "lapicero"  "macetita"  "servilletero";
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto auto;
+    justify-content: center;
+    height: auto; } }
+
+/*TABLET*/
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .container {
+    grid-template-areas: "caballito cajita"  "lapicero macetita" "servilletero .";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    justify-content: space-evenly;
+    height: auto; } }
+
+/*DESKTOP*/
+@media (min-width: 1200px) {
+  .container {
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-around;
+    height: auto; } }
+
+/*ESTILO DE PARRAFOS*/
+.historia__p {
+  background-color: transparent;
+  color: #c03131;
+  margin: 40px; }
+
+.compras__p {
+  background-color: transparent;
+  color: white;
+  margin: 45px;
+  font-size: 20px; }
+  .compras__p img {
+    margin-top: 50px; }
+
+.compras {
+  margin-left: 7%;
+  margin-right: 8.3%; }
+  .compras h1 {
+    color: white;
+    padding-top: 90px; }
+  .compras p {
+    padding-bottom: 2%; }
+
+.contact-form {
+  background: #fff;
+  background-color: white;
+  width: 100%; }
+
+.contact-form .form-control {
+  border-radius: 1rem; }
+
+.contact-image {
+  text-align: left; }
+
+.contact-image img {
+  border-radius: 6rem; }
+
+.contact-form form .row {
+  margin-bottom: 0%; }
+
+.contact-form h1 {
+  margin-top: -15%;
+  text-align: center;
+  color: #c03131;
+  padding-top: 150px; }
+
+.contact-form .btnContact {
+  width: 100%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #c03131;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  margin-top: -10px; }
+
+.btnContactSubmit {
+  width: 100%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  border: none;
+  cursor: pointer; }
+
+.formuNov p {
+  color: #c03131;
+  margin-top: 30px;
+  font-size: 17px; }
+
+.formuNov label {
+  float: right;
+  margin-top: -39.5px;
+  margin-right: 10px; }
+
+.form-group {
+  padding: 30px;
+  padding-left: 0%; }
+
+.contact-form img {
+  padding-top: 90px; }
+
+h1 {
+  color: #c03131;
+  text-align: center;
+  margin-top: 30px; }
+
+h2 {
+  color: #c03131;
+  text-align: center;
+  margin-bottom: 20px; }
+
+#modal2 {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 300px;
+  color: red; }
+
+html {
+  scroll-behavior: smooth; }
+
+#section1 {
+  height: auto;
+  background-color: white; }
+
+#section2 {
+  height: 1000px;
+  background-color: #c03131; }
+
+#section3 {
+  height: 740px;
+  background-color: white; }
+
+.to-top {
+  color: black;
+  padding-top: 1.8em;
+  display: inline-block;
+  /* or block */
+  position: relative;
+  border-color: black;
+  text-decoration: none;
+  background-color: transparent;
+  transition: all .3s ease-out;
+  margin-left: 1200px;
+  margin-top: -70px;
+  font-size: 1.3rem; }
+
+.to-top:before {
+  content: '▲';
+  font-size: .8em;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -.7em;
+  border: solid .13em white;
+  border-radius: 10em;
+  width: 1.4em;
+  height: 1.4em;
+  line-height: 1.3em;
+  border-color: inherit;
+  transition: transform .5s ease-in; }
+
+.to-top:hover {
+  color: pink;
+  border-color: pink; }
+
+.to-top:hover:before {
+  transform: rotate(360deg); }

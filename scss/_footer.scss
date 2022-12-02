@@ -1,0 +1,66 @@
+$red: rgb(192, 49, 49);
+
+.footer {
+    background-color: $red;
+}
+#subscribe-blog {
+    border: none;
+}
+#subscribe-blog h6{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.suscrip h6 {
+    color: white;
+    font-size: 20px;
+}
+#subscribe-field {
+    font-size: 14px;
+}
+.btsuscf {
+    background-color: $red;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+}
+.fab {
+    color: white;
+    font-size: 20px;
+}
+.productos {
+    color: white;
+    margin-top: 20px;
+    h6 {
+        font-size: 20px;
+    }
+    p a {
+        background-color: $red;
+        font-size: 18px;
+    }
+}
+.contacto {
+    color: white;
+    margin-top: 20px;
+    h6 {
+        font-size: 20px;
+    }
+    p a{
+        font-size: 18px;
+    }
+}
+.copyr {
+    color: white;
+    font-size: 16px;
+    a {
+        color: white;
+        font-size: 16px;
+        background-color: $red;
+    }
+}
+.btsusc{
+    background-color: white;
+    color: $red;
+    border-radius: 10%;
+    border-color: white;
+}

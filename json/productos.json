@@ -1,0 +1,32 @@
+[{
+        "id": 1,
+        "name": "Caballitos",
+        "precio": 40,
+        "cantidad": 1
+
+    },
+    {
+        "id": 2,
+        "name": "Cajitas",
+        "precio": 70,
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "name": "Lapiceros",
+        "precio": 50,
+        "cantidad": 1
+    },
+    {
+        "id": 4,
+        "name": "Macetitas",
+        "precio": 65,
+        "cantidad": 1
+    },
+    {
+        "id": 5,
+        "name": "Servilleteros",
+        "precio": 44,
+        "cantidad": 1
+    }
+]

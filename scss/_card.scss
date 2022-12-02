@@ -1,0 +1,71 @@
+$padding: 40px;
+$red: rgb(192, 49, 49);
+
+.prod {
+    text-align: center;
+    margin: 20px auto;
+    float: none; 
+    margin-bottom: 10px;
+    padding: $padding/2;
+    color: $red;
+    background-color: white;
+    border-color: black;
+    border-width: 7px;
+}
+
+.prod__card {
+    background-color: white;
+    justify-content: right;
+    p {
+        text-align: center;
+        color: black;
+        size: 20px;
+    }
+    a {
+        width: max-content;
+        margin-top: 12px;
+        margin-left: -20px;
+        background-color: $red;
+        color: white;
+        border: white;
+        text-transform: uppercase;
+    }
+    a:hover {
+        background-color: $red;
+    }
+}
+
+.prod2 {
+    text-align: center;
+    margin: 20px auto;
+    float: none; 
+    margin-bottom: 10px;
+    padding: $padding/2;
+    color: $red;
+    background-color: white;
+    border-color: black;
+    border-width: 7px;
+}
+
+.prod2__card {
+    background-color: white;
+    justify-content: center;
+    p {
+        text-align: center;
+        color: black;
+    }
+    a {
+        background-color: $red;
+        color: white;
+        border-color: $red;
+    }
+    a:hover {
+        background-color: $red;
+        border-color: black;
+    }
+}
+
+.price_prod{
+        font-size: 25px;
+        color: $red;
+}

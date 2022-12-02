@@ -1,0 +1,87 @@
+$pink: rgba(240, 124, 143, 0.849);
+$red: rgb(192, 49, 49);
+/*TOP-BAR*/
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: $red;
+    overflow: hidden;
+}
+  /* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    background-color: $red;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 10px;
+}
+  /* Change the color of links on hover */
+.topnav a:hover {
+    background-color: $red;
+    color: white;
+}
+/*MENU*/
+.contheader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: $red;
+    margin: auto;
+    padding: 8px;
+    align-items: center;
+}
+
+#navbarNavDropdown ul li a {
+    color: white;
+}
+
+.contmenu {
+    width: 100%;
+    display: flex;
+    list-style: none;
+    flex-direction:row;
+    justify-content: flex-end;
+}
+
+li {
+    margin: 25px;
+    padding: 5px;
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+    position: relative;
+    }
+
+a {
+    outline: none;
+    text-decoration: none;
+    text-align: center;
+    color: $pink;
+    font-size: 20px;
+    background-color: $red;
+    margin: auto;
+    list-style-type: none;
+}
+
+ul li a:focus {
+    color: rgb(247, 241, 241);
+}
+
+ul li a:hover{
+    color: rgb(247, 241, 241);
+    background-color: $pink;
+}
+
+.menudespl {
+    display: none;
+    background-color: rgb(247, 241, 241);
+    overflow: visible;
+    width: 160%;
+}
+.fas {
+    font-size: 20px;
+    margin-top: 13px;
+    color: $red;
+}
